@@ -4,9 +4,9 @@ Ces programmes Matlab ont été créés dans le cadre d'un projet en Introductio
 Ils permettent de déterminer les prénoms typiques par département et de faire des régressions entre la répartition des prénoms par département et des données socio-économiques. 
 
 ## Source des données
-Les données proviennent du [fichier des prénoms de l'INSEE](insee.fr/fr/statistiques/2540004) 
+Les données proviennent du [fichier des prénoms de l'INSEE](https://insee.fr/fr/statistiques/2540004) 
 
-Les données socio-économiques proviennent de [statistiques-locales.insee.fr](statistiques-locales.insee.fr)
+Les données socio-économiques proviennent de [statistiques-locales.insee.fr](https://statistiques-locales.insee.fr/)
 
 ## Détails des programmes
 ### prenoms3d.m
