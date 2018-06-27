@@ -4,7 +4,9 @@ Ces programmes Matlab ont été créés dans le cadre d'un projet en Introductio
 Ils permettent de déterminer les prénoms typiques par département et de faire des régressions entre la répartition des prénoms par département et des données socio-économiques. 
 
 ## Source des données
-Les données proviennent du fichier des prénoms de l'INSEE accessible ici : 
+Les données proviennent du [fichier des prénoms de l'INSEE](insee.fr/fr/statistiques/2540004) 
+
+Les données socio-économiques proviennent de [statistiques-locales.insee.fr](statistiques-locales.insee.fr)
 
 ## Détails des programmes
 ### prenoms3d.m
@@ -20,12 +22,13 @@ Ce programme permet de déterminer les prénoms typiques dans un département su
 2. Le prénom a été donné à 50% dans ce département
 3. Le prénom a été donné deux fois plus dans ce département que dans les autres
 4. Le prénom a été donné deux fois plus dans ce département que la moyenne nationale
-Chaque critère i correspond à une fonction Matlab *prenomsTypiqueV{i}.m* 
-La visualisation des résultats sur une carte se fait à l'aide de la fonction *carteDpt.m*
+
+Chaque critère i correspond à une fonction Matlab *prenomsTypiqueV{i}.m*.
+La visualisation des résultats sur une carte se fait à l'aide de la fonction *carteDpt.m*.
 
 ### regressionPrenoms.m
-Ce programme permet des régressions entre la répartition des prénoms et des données socio-économiques contenues dans *dataINSEE.mat*
+Ce programme permet des régressions entre la répartition des prénoms et des données socio-économiques contenues dans *dataINSEE.mat*.
 
-### Dossiers
-Le dossier **régression** contient le graphe des régressions générées par le programme *regressionPrenoms.m*
-Le dossier **prénoms typiques** contient les cartes des prénoms typiques générées par le *programme prénomsTypiques.m*
+## Dossiers compressés
+Le dossier **regression** contient le graphe des régressions générées par le programme *regressionPrenoms.m*
+Le dossier **prenoms typiques** contient les cartes des prénoms typiques générées par le *programme prénomsTypiques.m*
