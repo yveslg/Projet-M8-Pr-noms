@@ -30,5 +30,5 @@ La visualisation des résultats sur une carte se fait à l'aide de la fonction *
 Ce programme permet des régressions entre la répartition des prénoms et des données socio-économiques contenues dans *dataINSEE.mat*.
 
 ## Dossiers
-Le dossier **regression** contient le graphe des régressions générées par le programme *regressionPrenoms.m*
-Le dossier **prenoms typiques** contient les cartes des prénoms typiques générées par le *programme prénomsTypiques.m*
+Le dossier **regressions** contient le graphe des régressions générées par le programme *regressionPrenoms.m*
+Le dossier **prenoms_typiques** contient les cartes des prénoms typiques générées par le *programme prénomsTypiques.m*

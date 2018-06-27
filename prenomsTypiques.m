@@ -21,8 +21,10 @@ clear typique* frequence*
 prTypiqueV2 = [typiqueG,typiqueF];
 freq2 = [frequenceG,frequenceF];
 mean(freq2)
-figure(2);
+figure(21);
 carteDpt(listeDpt, centreDpt, dpt,prTypiqueV2(:,1),freq2(:,1));
+figure(22);
+carteDpt(listeDpt, centreDpt, dpt,prTypiqueV2(:,2),freq2(:,2));
 clear typique* frequence*
 
 %% Troisième version - Le prénom a été donné 2 fois plus dans ce département que dans les autres
